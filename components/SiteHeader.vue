@@ -50,7 +50,7 @@
                 <a class="nav-link" href="/contact">Contact</a>
               </li>    
               <li class="nav-item mt-3 ms-lg-8">
-                <a class="btn btn-primary" href="/dime" target="_blank">Faire un don</a>
+                <a class="btn btn-primary" href="https://pstsauveur.ca/dime" target="_blank">Faire un don</a>
               </li>
             </ul>
             <div class="offcanvas-footer d-lg-none">

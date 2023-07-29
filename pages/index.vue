@@ -162,6 +162,14 @@
             <!-- /.widget -->
 
             <div class="widget">
+              <a href="/evenements">
+                <i class="uil uil-calendar-alt"></i>
+                Voir tous les événements
+              </a>
+            </div>
+            <!-- /.widget -->
+
+            <div class="widget">
               <a href="https://www.semainierparoissial.com/semainiers/195.pdf">
                 <i class="uil uil-external-link-alt"></i>
                 Semainier Paroissial
