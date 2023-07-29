@@ -237,17 +237,17 @@ const weeklyEvents = [
   },
   {
     start: new Date(2023, 6, 31, 8, 30),
-    name: 'Messe, P. P. Rivard (8h30)',
+    name: 'Messe (8h30)',
     weekdays: 2,
   },
   {
     start: new Date(2023, 7, 3, 8, 30),
-    name: 'Messe, P. P. Rivard (8h30)',
+    name: 'Messe (8h30)',
     weekdays: 5,
   },
   {
     start: new Date(2023, 7, 4, 8, 30),
-    name: 'Messe, P. P. Rivard (8h30)',
+    name: 'Messe (8h30)',
     weekdays: 6,
   },
 ]
