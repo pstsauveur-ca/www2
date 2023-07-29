@@ -1,0 +1,62 @@
+@@if (!context.centerLogo) {
+<ul class="navbar-nav">
+  }
+@@if (context.centerLogo) {
+  <div class="w-100 order-1 order-lg-0 d-lg-flex offcanvas-body">
+    <ul class="navbar-nav ms-lg-auto">
+      }
+        @@if (context.centerLogo) {
+      </ul>
+      <!-- /.navbar-nav -->
+  </div>
+  <div class="w-100 order-3 order-lg-2 d-lg-flex offcanvas-body">
+    <ul class="navbar-nav me-lg-auto">
+      }
+    <li class="nav-item dropdown">
+      <a class="nav-link" href="@@webRoot/horaire">Horaire</a>
+      <!-- <ul class="dropdown-menu">
+        <li class="nav-item"><a class="dropdown-item" href="@@webRoot/blog">Horaire des messes</a></li>
+        <li class="nav-item"><a class="dropdown-item" href="@@webRoot/blog">Activités</a></li>
+      </ul> -->
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="@@webRoot/equipe">Équipe</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Sacrements</a>
+      <ul class="dropdown-menu">
+        <li class="nav-item"><a class="dropdown-item" href="@@webRoot/bapteme">Baptême</a></li>
+        <!-- <li class="nav-item"><a class="dropdown-item" href="@@webRoot/blog">Première communion</a></li> -->
+        <!-- <li class="nav-item"><a class="dropdown-item" href="@@webRoot/blog">Confirmation</a></li> -->
+        <li class="nav-item"><a class="dropdown-item" href="@@webRoot/mariage">Mariage</a></li>
+        <!-- <li class="nav-item"><a class="dropdown-item" href="@@webRoot/blog">Onction des malades</a></li> -->
+        <!-- <li class="nav-item"><a class="dropdown-item" href="@@webRoot/blog">Pardon et confession</a></li> -->
+        <li class="nav-item"><a class="dropdown-item" href="@@webRoot/funerailles">Funérailles</a></li>
+      </ul>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Cimetière</a>
+      <ul class="dropdown-menu">
+        <li class="nav-item"><a class="dropdown-item" href="@@webRoot/concessions">Concessions</a></li>
+        <li class="nav-item"><a class="dropdown-item" href="@@webRoot/colombarium">Colombarium</a></li>
+      </ul>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="@@webRoot/implication">S'impliquer</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="@@webRoot/contact">Contact</a>
+    </li>    
+    <li class="nav-item mt-3 ms-lg-8">
+      <a class="btn btn-primary" href="@@webRoot/dime" target="_blank">Faire un don</a>
+    </li>
+
+      @@if (context.centerLogo) {
+    </ul>
+    <!-- /.navbar-nav -->
+  </div>
+}
+@@if (!context.centerLogo) {
+</ul>
+<!-- /.navbar-nav -->
+}
