@@ -81,7 +81,7 @@ async function fetchAndSaveEvents() {
     }).map(([key, value]) => `${key}: ${value}`)
       .join('\n');
 
-    const content = `---\n${meta}\n---\n\n${event.contenu || ''}`;
+    const content = `---\n${meta}\n---\n\n${event.contenu || '‎ '}`;
 
     await mkdir(dirname, { recursive: true });
     await writeFile(`${filepath}.md`, content, 'utf8');
