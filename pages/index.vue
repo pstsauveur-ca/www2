@@ -131,7 +131,7 @@
             </div>
             <!-- /.widget -->
 
-            <div class="widget">
+            <div class="widget text-center">
               <Calendar color="blue" :attributes=calendarAttributes locale="fr-ca" />
             </div>
 
@@ -201,6 +201,15 @@
   text-transform: capitalize;
 }
 
+.vc-container .vc-weeks {
+  padding: 1rem;
+}
+
+.vc-container .vc-weekday {
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
 </style>
 
 <script lang="ts" setup>
@@ -248,6 +257,9 @@ const calendarAttributes = [
     key: 'today',
     highlight: true,
     dates: new Date(),
+    popover: {
+      label: "Aujourd'hui",
+    },
   },
   ...weeklyEvents.map(event => {
     return {

@@ -11,13 +11,13 @@
 
             <a v-for="event of events" :href=event.link class="card mb-4 lift">
               <div class="card-body p-5">
-                <span class="row justify-content-between align-items-center">
+                <span class="row justify-content-between align-items-center ">
                   <span class="col-md-5 mb-2 mb-md-0 d-flex align-items-center text-body">
                     {{ event.titre }}
                   </span>
-                  <span class="col-5 col-md-3 text-body d-flex align-items-center">
+                  <span class="col-7 col-md-3 text-body d-flex align-items-center">
                     <i class="uil uil-calendar-alt me-1"></i> {{ formatDate(event.date) }} </span>
-                  <span class="col-7 col-md-4 col-lg-3 text-body d-flex align-items-center">
+                  <span class="d-none d-md-flex col-7 col-md-4 col-lg-3 text-body align-items-center">
                     <i class="uil uil-location-arrow me-1"></i> Église St-Sauveur </span>
                   <span class="d-none d-lg-block col-1 text-center text-body">
                     <i class="uil uil-angle-right-b"></i>
