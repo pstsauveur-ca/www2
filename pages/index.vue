@@ -131,7 +131,7 @@
             </div>
             <!-- /.widget -->
 
-            <div class="widget text-center">
+            <div class="widget">
               <Calendar color="blue" :attributes=calendarAttributes locale="fr-ca" />
             </div>
 
