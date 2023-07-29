@@ -124,14 +124,16 @@
           </div>
           <!-- /column -->
           <aside class="col-lg-4 sidebar mt-8 mt-lg-6">
-
-
             <div class="widget">
               <h4 class="widget-title mb-3">À propos de la paroisse</h4>
               <p>Située au cœur du village de Saint-Sauveur, la paroisse est au service de la population de Saint-Sauveur et de Piedmont depuis 1854. Au-delà de la belle vieille église, la paroisse est une communauté chrétienne dynamique qui prend plaisir à vous accueillir.
               </p>
             </div>
             <!-- /.widget -->
+
+            <div class="widget">
+              <Calendar color="blue" :attributes=calendarAttributes locale="fr-ca" />
+            </div>
 
             <div class="widget">
               <h4 class="widget-title mb-3">Événements à venir</h4>
@@ -190,7 +192,20 @@
   </div>
 </template>
 
+<style>
+.vc-container .vc-title {
+  background: none;
+}
+
+.vc-container .vc-title span {
+  text-transform: capitalize;
+}
+
+</style>
+
 <script lang="ts" setup>
+import 'v-calendar/style.css';
+import { Calendar } from 'v-calendar';
 
 const today = Date.now();
 
@@ -199,5 +214,72 @@ const { body: events } = await queryContent('/').where({ _file: 'evenements.json
 const upcomingEvents = events.filter((event) => {
   return new Date(event.date).getTime() > today;
 });
+
+const weeklyEvents = [
+  {
+    start: new Date(2023, 6, 30, 11),
+    name: 'Messe du Dimanche (11h00)',
+    weekdays: 1,
+  },
+  {
+    start: new Date(2023, 6, 30, 9, 30),
+    name: 'Messe du Dimanche (9h30)',
+    weekdays: 1,
+  },
+  {
+    start: new Date(2023, 6, 31, 8, 30),
+    name: 'Messe, P. P. Rivard (8h30)',
+    weekdays: 2,
+  },
+  {
+    start: new Date(2023, 7, 3, 8, 30),
+    name: 'Messe, P. P. Rivard (8h30)',
+    weekdays: 5,
+  },
+  {
+    start: new Date(2023, 7, 4, 8, 30),
+    name: 'Messe, P. P. Rivard (8h30)',
+    weekdays: 6,
+  },
+]
+
+const calendarAttributes = [
+  {
+    key: 'today',
+    highlight: true,
+    dates: new Date(),
+  },
+  ...weeklyEvents.map(event => {
+    return {
+      key: event.name,
+      dot: {
+        color: 'blue'
+      },
+      dates: {
+        start: event.start,
+        repeat: {
+          every: [1, 'weeks'],
+          weekdays: event.weekdays,
+        },
+      },
+      popover: {
+        label: event.name,
+      },
+    }
+  }),
+  ...upcomingEvents.map(event => {
+    return {
+      key: event.title,
+      highlight: {
+        color: 'purple',
+        fillMode: 'outline'
+      },
+      dates: new Date(event.date),
+      popover: {
+        label: event.titre,
+      },
+    }
+  })
+]
 
 </script>
