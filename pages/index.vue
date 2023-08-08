@@ -241,6 +241,16 @@ const weeklyEvents = [
     weekdays: 2,
   },
   {
+    start: new Date(2023, 6, 31, 8, 30),
+    name: 'Messe (8h30)',
+    weekdays: 3,
+  },
+  {
+    start: new Date(2023, 6, 31, 8, 30),
+    name: 'Messe (8h30)',
+    weekdays: 4,
+  },
+  {
     start: new Date(2023, 7, 3, 8, 30),
     name: 'Messe (8h30)',
     weekdays: 5,
