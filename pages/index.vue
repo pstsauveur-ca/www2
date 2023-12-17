@@ -215,6 +215,7 @@
 <script lang="ts" setup>
 import 'v-calendar/style.css';
 import { Calendar } from 'v-calendar';
+import type { Attribute } from 'v-calendar/dist/types/src/utils/attribute';
 
 const today = Date.now();
 
@@ -260,9 +261,54 @@ const weeklyEvents = [
     name: 'Messe (8h30)',
     weekdays: 6,
   },
-]
+];
 
-const calendarAttributes = [
+const normalScheduleIntervals = [{
+  from: new Date(2023, 0, 1), to: new Date(2023, 11, 23),
+}, 
+{
+  from: new Date(2023, 11, 26),
+}
+];
+
+const normalSchedule = normalScheduleIntervals.flatMap(interval => {
+  return weeklyEvents.map(event => {
+    const startDate = new Date(interval.from);
+    const targetDate = new Date(event.start);
+
+    const day = event.weekdays - 1;
+    const hour = targetDate.getDay();
+    const minutes = targetDate.getDay();
+
+    var distance = (day + 7 - startDate.getDay()) % 7;
+
+    startDate.setDate(startDate.getDate() + distance);
+    startDate.setHours(hour);
+    startDate.setMinutes(minutes);
+
+    return {
+      key: event.name,
+      dot: {
+        color: 'blue'
+      },
+      dates: {
+        start: startDate,
+        repeat: {
+          every: [1, 'weeks'],
+          weekdays: event.weekdays,
+          until: interval.to
+        },
+      },
+      popover: {
+        label: event.name,
+      },
+    }
+  });
+});
+
+console.log(normalSchedule.map(s => s.dates.start));
+
+const calendarAttributes: Attribute[] = [
   {
     key: 'today',
     highlight: true,
@@ -271,24 +317,7 @@ const calendarAttributes = [
       label: "Aujourd'hui",
     },
   },
-  ...weeklyEvents.map(event => {
-    return {
-      key: event.name,
-      dot: {
-        color: 'blue'
-      },
-      dates: {
-        start: event.start,
-        repeat: {
-          every: [1, 'weeks'],
-          weekdays: event.weekdays,
-        },
-      },
-      popover: {
-        label: event.name,
-      },
-    }
-  }),
+  ...normalSchedule,
   ...upcomingEvents.map(event => {
     return {
       key: event.title,
