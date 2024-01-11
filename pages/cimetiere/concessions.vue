@@ -24,9 +24,8 @@
               Un lot pouvant accueillir 2 cercueils et 4 urnes;<br>
               D’autres lots de diverses dimensions pouvant accueillir urnes et cercueils.</p>
             <p>Pour toute information:<br>
-              Madame Francine Leduc<br>
+              Monsieur Marc Gascon<br>
               (450)227-2423</p>
-            <p><a href="/pdf/Lettre-bouquet-du-souvenir-2023.pdf">LE BOUQUET DU SOUVENIR</a></p>
             <img src="/img/photos/concession.png">
           </div>
           <!--/column -->

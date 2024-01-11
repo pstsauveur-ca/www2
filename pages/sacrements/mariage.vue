@@ -25,9 +25,7 @@
 						<p>Quoi faire?</p>
 
 						<ol>
-							<li>Communiquez le plus tôt possible avec Madame Francine Leduc à la paroisse. Vous pouvez le faire par téléphone au 450-227-2423, par télécopieur au 450-227-1633 ou par courriel à f.leduc@cgocable.ca
-							</li>
-							<li>Madame Leduc communiquera dès que possible avec vous et vous fera parvenir des questionnaires à compléter et la liste des documents requis pour votre mariage.</li>
+							<li>Communiquez le plus tôt possible avec la paroisse. On vous fera parvenir des questionnaires à compléter et la liste des documents requis pour votre mariage.</li>
 							<li>Sur réception de tous ces documents, nous pourrons confirmer votre date de mariage.</li>
 							<li>Dès que possible, vous aurez à faire les démarches nécessaires pour vous inscrire à une session de préparation au mariage dans votre région. Il y a tellement à faire que dans la frénésie de la préparation de votre mariage il y a danger que les deux partenaires se perdent de vue, emportés par un tourbillon qu’ils n’arrivent plus à contrôler. Alors, faites-vous le cadeau d’un temps d’arrêt ensemble.  Le jour de votre mariage vous serez tous les deux les ministres de ce grand sacrement.  Il est bon de prendre du temps pour bien saisir toute l’importance de ce geste, de ces paroles, qui vous engageront l’un envers l’autre. Si vous désirez des informations, il nous fera plaisir de vous faire parvenir un carnet d’information pour cette année.</li>
 							<li>
