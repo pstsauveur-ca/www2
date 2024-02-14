@@ -47,7 +47,7 @@
 					<div class="col-lg-6">
 						<div>
 							<h4 class="mb-1">Manon Desjardins</h4>
-							<p class="mb-0">Commis-Comptable</p>
+							<p class="mb-0">Agente administrative en comptabilité</p>
 						</div>
 					</div>
 					<div class="col-lg-6">
