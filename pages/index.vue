@@ -14,10 +14,11 @@
 				  <div class="row">
 					<div class="col-lg-8 mx-auto mt-n10 text-center">
 					  <h1 class="fs-19 text-uppercase ls-xl text-white mb-3 animate__animated animate__zoomIn animate__delay-1s">
-              Permets-moi de te raconter
+              <!-- La vie en abondance -->
             </h1>
 					  <h2 class="display-1 fs-60 text-white mb-0 animate__animated animate__zoomIn animate__delay-2s"> 
-              les merveilles que Dieu fait dans ma vie.
+              <!-- les merveilles que Dieu fait dans ma vie. -->
+              La vie en abondance
             </h2>
 					</div>
 					<!-- /column -->
@@ -37,68 +38,45 @@
         <div class="row gx-lg-8 gx-xl-12">
           <div class="col-lg-8 order-lg-2">
             <div class="blog classic-view">
-              <article class="post">
-                <div class="card">
-                  <figure class="card-img-top overlay overlay-1 hover-scale">
-                    <!-- <a href="#"> -->
-                      <img src="/img/photos/the_holy_spirit_blessing_a_Canadian_village_winter.png" alt="" />
-                    <!-- </a> -->
-                    <figcaption>
-                      <!-- <h5 class="from-top mb-0">Read More</h5> -->
-                    </figcaption>
-                  </figure>
-                  <div class="card-body">
-                    <div class="post-header">
-                      <!-- <div class="post-category text-line">
-                        <a href="#" class="hover" rel="category">Teamwork</a>
-                      </div> -->
-                      <!-- /.post-category -->
-                      <h2 class="post-title mt-1 mb-0">
-                        <!-- <a class="link-dark" href="#"> -->
-                          Prière pour le renouveau de notre communauté paroissiale
-                        <!-- </a> -->
-                      </h2>
-                    </div>
-                    <!-- /.post-header -->
-                    <div class="post-content">
-                      <p>
-                        Dieu notre Père, </p>
 
-                      <p>Toi qui es plein de tendresse pour tes enfants;
-                        comble-nous de ta grâce, de ta joie et de ta paix.</p>
-                        
-                      <p>Comme disciples du Christ, que les membres de notre communauté chrétienne soient
-                        conscients de leur vocation à la sainteté, en partageant leurs
-                        dons et leurs charismes, en les mettant au service de leurs frères
-                        et sœurs.</p>
-                        
-                      <p>Envoie ton Esprit Saint pour que, dans ce nouvel élan
-                        d’évangélisation, nous devenions missionnaires de foi,
-                        d’espérance et d’amour auprès de nos familles, de nos
-                        communautés et dans nos milieux de travail.</p>
-                        
-                      <p>Mets en nous le désir de vivre comme Toi, à l’exemple de la bienheureuse Catherine
-                        de Saint-Augustin, afin que, d’autres expérimentent ton immense amour et ta divine miséricorde. Bénis notre communauté paroissiale pour qu’avec l’aide de Notre Dame de toute joie, elle soit un milieu favorable à la vocation du mariage, du sacerdoce et de la vie religieuse.</p>
-                      <p>Amen</p>
-                    </div>
-                    <!-- /.post-content -->
-                  </div>
-                  <!--/.card-body -->
-                  <div class="card-footer">
-                    <ul class="post-meta d-flex mb-0">
-                      <li class="post-date">
-                        <i class="uil uil-calendar-alt"></i>
-                        <span>5 Décembre 2022</span>
-                      </li>
-                      <!-- <li class="post-author"><a href="#"><i class="uil uil-user"></i><span>By Sandbox</span></a></li> -->
-                    </ul>
-                    <!-- /.post-meta -->
-                  </div>
-                  <!-- /.card-footer -->
-                </div>
-                <!-- /.card -->
-              </article>
-              <!-- /.post -->
+              <BlogPost 
+                image="/img/photos/mont-golgotha.png"
+                title="Défi du Carême 2024"
+                date="23 Février 2024">
+                <p>Ce Carême, nous vous invitons à approfondir votre lien avec la parole de Dieu à travers notre "Défi du Carême : Lecture de la Parole".</p>
+                <p>Abandonnez-vous à ce temps de lecture et à la prière, en vous joignant à notre communauté. C'est l'occasion parfaite de ralentir, de méditer et de se rapprocher de Dieu dans l'intimité de votre foyer ou où que vous soyez.</p>
+                <p>Comment participer ?</p>
+                <ul>
+                  <li>En ligne : Connectez-vous à nos séances sur <a href="https://www.facebook.com/events/908112034314649/908112047647981">Facebook Live</a> tous les lundis et jeudis, de 15h à 15h15. Chaque session sera un moment de calme et de réflexion, comprenant une lecture choisie de la parole de Dieu suivie d'une courte prière.</li>
+                  <li>À la maison : Suivez notre parcours de lecture d’un évangile à votre rythme. Bien que nous n'énumérions pas spécifiquement les passages à l'avance, nous vous encourageons à vous joindre à nous pour une expérience partagée.</li>
+                </ul>
+                <p>Dates : Du 15 février au 25 mars</p>
+                <p>Horaire : Les lundis et jeudis de 15h à 15h15</p>
+                <p>Rejoignez notre communauté pour ce temps de Carême, un moment pour se recentrer, se renouveler et renforcer notre foi ensemble. Ce défi est une invitation à explorer la richesse et le réconfort de la parole de Dieu.</p>
+                <p>Ensemble, faisons de ce Carême une période d’une vivante communion. #DéfiCarême</p>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=61_5Y0XqwxVINXQ8&amp;list=PLiAKJDisTJz4BbUQ65ycginEPCxP_JqMn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </BlogPost>
+
+              <BlogPost 
+                image="/img/photos/the_holy_spirit_blessing_a_Canadian_village_winter.png"
+                title="Prière pour le renouveau de notre communauté paroissiale"
+                date="5 Décembre 2022">
+                <p>Dieu notre Père,</p>
+                <p>Toi qui es plein de tendresse pour tes enfants;
+                  comble-nous de ta grâce, de ta joie et de ta paix.</p>
+                <p>Comme disciples du Christ, que les membres de notre communauté chrétienne soient
+                  conscients de leur vocation à la sainteté, en partageant leurs
+                  dons et leurs charismes, en les mettant au service de leurs frères
+                  et soeurs.</p>
+                <p>Envoie ton Esprit Saint pour que, dans ce nouvel élan
+                  d’évangélisation, nous devenions missionnaires de foi,
+                  d’espérance et d’amour auprès de nos familles, de nos
+                  communautés et dans nos milieux de travail.</p>
+                <p>Mets en nous le désir de vivre comme Toi, à l’exemple de la bienheureuse Catherine
+                  de Saint-Augustin, afin que, d’autres expérimentent ton immense amour et ta divine miséricorde. Bénis notre communauté paroissiale pour qu’avec l’aide de Notre Dame de toute joie, elle soit un milieu favorable à la vocation du mariage, du sacerdoce et de la vie religieuse.</p>
+                <p>Amen</p>
+              </BlogPost>
               
             </div>
             <!-- /.blog -->
