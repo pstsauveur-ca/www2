@@ -55,7 +55,7 @@
                 <p>Rejoignez notre communauté pour ce temps de Carême, un moment pour se recentrer, se renouveler et renforcer notre foi ensemble. Ce défi est une invitation à explorer la richesse et le réconfort de la parole de Dieu.</p>
                 <p>Ensemble, faisons de ce Carême une période d’une vivante communion. #DéfiCarême</p>
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=61_5Y0XqwxVINXQ8&amp;list=PLiAKJDisTJz4BbUQ65ycginEPCxP_JqMn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <YoutubeEmbed playlist-id="PLiAKJDisTJz4BbUQ65ycginEPCxP_JqMn"/>
               </BlogPost>
 
               <BlogPost 
