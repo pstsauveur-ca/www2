@@ -241,13 +241,34 @@ const weeklyEvents = [
   },
 ];
 
+// Month numbers start at 0
 const normalScheduleIntervals = [{
   from: new Date(2023, 0, 1), to: new Date(2023, 11, 23),
 }, 
 {
-  from: new Date(2023, 11, 26),
+  from: new Date(2023, 11, 26), to: new Date(2024, 2, 26),
+},
+// Enlever les messes du 26, 28, et 29
+{
+  from: new Date(2024, 2, 30)
 }
 ];
+
+const additionalEvents = [
+// Mais garder la messe du 27  
+{
+  key: 'Messe (8h30)',
+  dot: {
+    color: 'blue'
+  },
+  dates: new Date(2024, 2, 27),
+  popover: {
+    label: 'Messe (8h30)',
+  },
+}
+];
+
+
 
 const normalSchedule = normalScheduleIntervals.flatMap(interval => {
   return weeklyEvents.map(event => {
@@ -296,6 +317,7 @@ const calendarAttributes: Attribute[] = [
     },
   },
   ...normalSchedule,
+  ...additionalEvents,
   ...upcomingEvents.map(event => {
     return {
       key: event.title,

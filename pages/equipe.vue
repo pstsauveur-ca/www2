@@ -52,6 +52,8 @@
 					</div>
 					<div class="col-lg-6">
 						<div>
+							<h4 class="mb-1">Marc Gascon</h4>
+							<p class="mb-0">Gestionnaire des services administratifs</p>
 						</div>
 					</div>
 				</div>
