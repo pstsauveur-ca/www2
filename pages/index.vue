@@ -126,7 +126,7 @@
             <!-- /.widget -->
 
             <div class="widget">
-              <Calendar color="blue" locale="fr-ca" :attributes="calendarAttributes" />
+              <!-- <Calendar color="blue" locale="fr-ca" :attributes="calendarAttributes" /> -->
             </div>
 
             <div class="widget">
