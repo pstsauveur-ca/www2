@@ -5,7 +5,7 @@ import * as path from 'path';
 import {
   createDirectus, readItems, rest, staticToken,
 } from '@directus/sdk';
-import { Schema, WebsiteEvent } from './schema';
+import { Schema, WebsiteEvent, type WebsitePublication } from './schema';
 
 const token = process.env.DIRECTUS_TOKEN;
 
@@ -24,6 +24,7 @@ async function start() {
   try {
     await mkdir(dataDir, { recursive: true });
 
+    await fetchAndSavePublications();
     await fetchAndSaveEvents();
     await fetchAndSaveBaptismAvailabilities();
   } catch (err) {
@@ -31,6 +32,36 @@ async function start() {
   }
 
   console.log('Done.');
+}
+
+async function fetchAndSavePublications() {
+  console.log('Fetching publications...');
+  const data = await directus.request(readItems('publications', {
+    sort: ['date_created'],
+    filter: {
+      status: {
+        _eq: 'published',
+      },
+    },
+  }));
+
+  const events = data.map((event) => {
+    const [year, month] = event.date_created.split('T')[0].split('-');
+
+    const websitePublication: WebsitePublication = {
+      ...event,
+      formattedDate: formatDateLong(event.date_created),
+      link: `evenements/${year}/${month}/${event.id}`,
+    };
+
+    return websitePublication;
+  });
+
+  await writeFile(
+    path.join(dataDir, 'publications.json'),
+    JSON.stringify(events, null, 2),
+    'utf8',
+  );
 }
 
 async function fetchAndSaveEvents() {

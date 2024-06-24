@@ -39,6 +39,22 @@
           <div class="col-lg-8 order-lg-2">
             <div class="blog classic-view">
 
+              <!-- <BlogPost v-for="publication in publications"
+                :image="`https://static.pstsauveur.ca/${publication.image}`"
+                :title="publication.titre"
+                :date="publication.formattedDate"
+              >
+                <div v-html="publication.texte" /> 
+              </BlogPost> -->
+
+
+              <BlogPost
+                image="https://static.pstsauveur.ca/97622300-14d6-42c5-abb0-d567d89209ae"
+                title="Concert de louange"
+                date="7 juillet 2024">
+                <p>Le collectif le Feu sacré sera de passage dans notre paroisse le dimanche 7 juillet. Il animera les messes de 9h30 et 11h00. Un diner hamburger vous sera offert gratuitement (don à votre discrétion). Par la suite, à 13h30, un magnifique concert de louange vous sera offert dans l'église, durant lequel on rendra grâce à Dieu de tous ses bienfaits. Un temps de prière commun sera proposé accompagné de l'exposition du Saint Sacrement. Vous vivrez un moment inoubliable. Amenez des amis.</p>
+              </BlogPost>
+
               <BlogPost 
                 image="/img/photos/mont-golgotha.png"
                 title="Défi du Carême 2024"
@@ -110,7 +126,7 @@
             <!-- /.widget -->
 
             <div class="widget">
-              <Calendar color="blue" :attributes=calendarAttributes locale="fr-ca" />
+              <Calendar color="blue" locale="fr-ca" :attributes="calendarAttributes" />
             </div>
 
             <div class="widget">
@@ -193,9 +209,11 @@
 <script lang="ts" setup>
 import 'v-calendar/style.css';
 import { Calendar } from 'v-calendar';
-import type { Attribute } from 'v-calendar/dist/types/src/utils/attribute';
+import type { Attribute } from 'v-calendar/dist/types/src/utils/attribute'; 
 
 const today = Date.now();
+
+const { body: publications } = await queryContent('/').where({ _file: 'publications.json' }).findOne();
 
 const { body: events } = await queryContent('/').where({ _file: 'evenements.json' }).findOne();
 
@@ -305,7 +323,7 @@ const normalSchedule = normalScheduleIntervals.flatMap(interval => {
   });
 });
 
-console.log(normalSchedule.map(s => s.dates.start));
+// console.log(normalSchedule.map(s => s.dates.start));
 
 const calendarAttributes: Attribute[] = [
   {
