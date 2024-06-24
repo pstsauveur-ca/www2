@@ -26,8 +26,22 @@ export interface WebsiteEvent extends Event {
   contenu?: string
 }
 
+export interface Publication {
+  id: string
+  status: string
+  image: string
+  titre: string
+  texte: string
+}
+
+export interface WebsitePublication extends Publication {
+  formattedDate: string
+  link: string
+}
+
 export interface Schema {
   'disponibilite_bapteme': BaptismAvailability[]
   'disponibilite_catechese_bapteme': BaptismCatechesisAvailability[],
   'evenements': Event[]
+  'publications': Publication[]
 }

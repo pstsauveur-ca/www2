@@ -5,7 +5,7 @@
         <div class="col-lg-4">
           <div class="widget">
             <img class="mb-4" src="/img/logo-paroisse-blanc.png" alt="" /> <!-- srcset="/img/logo-paroisse-blanc.png 2x"  -->
-            <p class="mb-4">© 2017-2023 Paroisse Saint-Sauveur</p>
+            <p class="mb-4">© 2017-2024 Paroisse Saint-Sauveur</p>
             <nav class="nav social social-white">
               <a href="https://www.facebook.com/profile.php?id=100084988655428"><i class="uil uil-facebook-f"></i></a>
               <!-- <a href="#"><i class="uil uil-instagram"></i></a> -->

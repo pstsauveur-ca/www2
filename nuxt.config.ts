@@ -3,7 +3,27 @@ import { resolve } from 'path';
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   $production: {},
-  $development: {},
+  $development: {
+    vite: {
+      optimizeDeps: {
+        noDiscovery: true,
+        include: []
+      },
+      server: {
+        hmr: false
+      },
+      warmupEntry: false,
+      build: {
+        minify: false,
+        cssMinify: false,
+        cssCodeSplit: false,
+        modulePreload: false,
+        rollupOptions: {
+          treeshake: false,
+        },
+      },
+    },
+  },
   content: {
     // api: {
     //   baseURL: '/api/_data',
@@ -18,22 +38,13 @@ export default defineNuxtConfig({
   devtools: {
     enabled: false,
   },
-  modules: [
-    '@nuxt/content',
-  ],
+  modules: ['@nuxt/content'],
   nitro: {
 
   },
   postcss: {},
   runtimeConfig: {
     public: {},
-  },
-  vite: {
-    build: {
-      rollupOptions: {
-        treeshake: false,
-      },
-    },
   },
   webpack: {},
 });

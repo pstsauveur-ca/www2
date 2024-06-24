@@ -3,7 +3,8 @@
   "extends": "./.nuxt/tsconfig.json",
   "ts-node": {
     "compilerOptions": {
-      "module": "commonjs"
+      "module": "commonjs",
+      "moduleResolution": "Node16"
     }
   },
   "exclude": [
