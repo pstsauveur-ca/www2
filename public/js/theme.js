@@ -25,7 +25,7 @@ var theme = {
     theme.plyr();
     theme.progressBar();
     theme.loader();
-    theme.pageProgress();
+    // theme.pageProgress();
     theme.counterUp();
     theme.bsTooltips();
     theme.bsPopovers();
@@ -34,7 +34,7 @@ var theme = {
     theme.forms();
     theme.passVisibility();
     theme.pricingSwitcher();
-    theme.textRotator();
+    // theme.textRotator();
     theme.codeSnippet();
   },
   /**
