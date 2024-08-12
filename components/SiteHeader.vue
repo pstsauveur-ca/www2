@@ -38,6 +38,7 @@
                   <!-- <li class="nav-item"><a class="dropdown-item" href="/blog">Onction des malades</a></li> -->
                   <!-- <li class="nav-item"><a class="dropdown-item" href="/blog">Pardon et confession</a></li> -->
                   <li class="nav-item"><a class="dropdown-item" href="/sacrements/funerailles">Funérailles</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="/sacrements/paiements">Paiements</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
