@@ -83,7 +83,7 @@ donc la démarche proposée par l’équipe d’évangélisation pour demeurer e
           </div>
           <!--/column -->
           <div class="col-md-6 col-lg-4"> <span class="icon btn btn-circle btn-lg btn-primary pe-none mb-4"><span class="number">02</span></span>
-            <h4 class="mb-1">Formulaire</h4>
+            <h4 class="mb-1">Enregistrement</h4>
             <p class="mb-0">Complétez le formulaire d’inscription en vous assurant de choisir des dates qui
               respectent vos disponibilité réelles. 
               <br>
