@@ -3,7 +3,7 @@
 	<section class="wrapper bg-light">
 		<div class="container pb-11">
 			<div class="row mb-14 mb-md-16">
-				<div class="col-xl-10 mx-auto mt-n19">
+				<div class="col-xl-10 mx-auto mt-n8">
 					<div class="card">
 						<div class="row gx-0">
 							<div class="col-lg-6 align-self-stretch">

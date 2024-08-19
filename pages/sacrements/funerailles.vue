@@ -2,7 +2,7 @@
   <div>
     <PageTitle title="Funérailles" />
     <section class="wrapper bg-light">
-      <div class="container py-14 py-md-14">
+      <div class="container py-8 py-md-8">
         <div class="row gx-lg-8 gx-xl-12 gy-10">
 					<div class="col-lg-6 order-lg-2 position-relative">
 						<figure class="mb-0">
@@ -26,6 +26,8 @@
 
 						<p>Que cette célébration des funérailles puisse vous apporter la paix et la sérénité.</p>
 
+						<p>Pour planifier les funérailles, nous vous invitons à <a href="/contact">contacter le presbytère</a>. 
+							Nous serons là pour vous accompagner et répondre à toutes vos questions.</p>
           </div>
           <!--/column -->
         </div>

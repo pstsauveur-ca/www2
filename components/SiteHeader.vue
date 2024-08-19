@@ -31,12 +31,14 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Sacrements</a>
                 <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="dropdown-item" href="/sacrements/bapteme">Baptême</a></li>
+                  <!-- <li class="nav-item"><a class="dropdown-item" href="/sacrements/bapteme">Baptême</a></li> -->
                   <!-- <li class="nav-item"><a class="dropdown-item" href="/blog">Première communion</a></li> -->
                   <!-- <li class="nav-item"><a class="dropdown-item" href="/blog">Confirmation</a></li> -->
-                  <li class="nav-item"><a class="dropdown-item" href="/sacrements/mariage">Mariage</a></li>
+                  <!-- <li class="nav-item"><a class="dropdown-item" href="/sacrements/mariage">Mariage</a></li> -->
                   <!-- <li class="nav-item"><a class="dropdown-item" href="/blog">Onction des malades</a></li> -->
                   <!-- <li class="nav-item"><a class="dropdown-item" href="/blog">Pardon et confession</a></li> -->
+                  <li class="nav-item"><a class="dropdown-item" href="/sacrements/parcours-enfants">Parcours enfants</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="/sacrements/parcours-adultes">Parcours adultes</a></li>
                   <li class="nav-item"><a class="dropdown-item" href="/sacrements/funerailles">Funérailles</a></li>
                   <li class="nav-item"><a class="dropdown-item" href="/sacrements/paiements">Paiements</a></li>
                 </ul>
