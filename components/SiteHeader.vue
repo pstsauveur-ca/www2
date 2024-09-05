@@ -47,8 +47,8 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Vie de foi</a>
                 <ul class="dropdown-menu">
-                  <!-- <li class="nav-item"><a class="dropdown-item" href="/demarche">Démarche</a></li> -->
-                  <!-- <li class="nav-item"><a class="dropdown-item" href="/alpha">Alpha</a></li> -->
+                  <li class="nav-item"><a class="dropdown-item" href="/initiatives">Initiatives</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="/alpha">Alpha</a></li>
                   <li class="nav-item"><a class="dropdown-item" href="/implication">S'impliquer</a></li>
                 </ul>
               </li>
