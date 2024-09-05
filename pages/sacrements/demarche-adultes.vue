@@ -13,7 +13,7 @@
             <h2 id="adultes" class="display-2">Démarche sacramentelle pour adultes</h2>
 
             <p>
-              Les demandes de sacrements pour un adulte sont accueillies de la même manière que celles pour les enfants (voir le verso), y compris pour
+              Les demandes de sacrements pour un adulte sont accueillies de la même manière que <a href="/sacrements/demarche-enfants">celles pour les enfants</a>, y compris pour
               le sacrement du mariage. Toutefois, l’adulte peut choisir de substituer les activités de l’étape 1 par la participation au parcours Alpha.
             </p>
             
