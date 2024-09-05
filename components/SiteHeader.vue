@@ -31,14 +31,8 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Sacrements</a>
                 <ul class="dropdown-menu">
-                  <!-- <li class="nav-item"><a class="dropdown-item" href="/sacrements/bapteme">Baptême</a></li> -->
-                  <!-- <li class="nav-item"><a class="dropdown-item" href="/blog">Première communion</a></li> -->
-                  <!-- <li class="nav-item"><a class="dropdown-item" href="/blog">Confirmation</a></li> -->
-                  <!-- <li class="nav-item"><a class="dropdown-item" href="/sacrements/mariage">Mariage</a></li> -->
-                  <!-- <li class="nav-item"><a class="dropdown-item" href="/blog">Onction des malades</a></li> -->
-                  <!-- <li class="nav-item"><a class="dropdown-item" href="/blog">Pardon et confession</a></li> -->
-                  <li class="nav-item"><a class="dropdown-item" href="/sacrements/parcours-enfants">Parcours enfants</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="/sacrements/parcours-adultes">Parcours adultes</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="/sacrements/demarche-enfants">Démarche enfants</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="/sacrements/demarche-adultes">Démarche adultes</a></li>
                   <li class="nav-item"><a class="dropdown-item" href="/sacrements/funerailles">Funérailles</a></li>
                   <li class="nav-item"><a class="dropdown-item" href="/sacrements/paiements">Paiements</a></li>
                 </ul>
@@ -50,8 +44,13 @@
                   <li class="nav-item"><a class="dropdown-item" href="/cimetiere/colombarium">Colombarium</a></li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/implication">S'impliquer</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Vie de foi</a>
+                <ul class="dropdown-menu">
+                  <!-- <a class="nav-link" href="/demarche">Démarche</a> -->
+                  <!-- <a class="nav-link" href="/alpha">Alpha</a> -->
+                  <a class="nav-link" href="/implication">S'impliquer</a>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/contact">Contact</a>

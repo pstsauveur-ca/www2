@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PageTitle title="Parcours sacrementel" />
+    <PageTitle title="Démarche sacrementelle" />
     <section class="wrapper bg-light">
       <div class="container py-8 py-md-8">
         <div class="row gx-lg-8 gx-xl-12 gy-10">
