@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PageTitle title="Démarche sacrementelle" />
+    <PageTitle title="Démarche sacramentelle pour bébés, enfants et adolescents" />
     <section class="wrapper bg-light">
       <div class="container py-8 py-md-8">
         <div class="row gx-lg-8 gx-xl-12 gy-10">
@@ -10,7 +10,6 @@
 						</figure>
 					</div>
           <div class="col-lg-6">
-            <h2 id="enfants" class="display-2">Démarche sacramentelle pour bébés, enfants et adolescents</h2>
 
             <p>
               Afin d’accomplir notre mission d’évangélisation, chaque demande de sacrement est accueillie dans une démarche qui soutient l’éveil ou le

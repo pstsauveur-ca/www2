@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PageTitle title="Démarche sacramentelle" />
+    <PageTitle title="Démarche sacramentelle pour adultes" />
     <section class="wrapper bg-light">
       <div class="container py-8 py-md-14">
         <div class="row gx-lg-8 gx-xl-12 gy-10">
@@ -10,7 +10,6 @@
 						</figure>
 					</div>
           <div class="col-lg-6">
-            <h2 id="adultes" class="display-2">Démarche sacramentelle pour adultes</h2>
 
             <p>
               Les demandes de sacrements pour un adulte sont accueillies de la même manière que <a href="/sacrements/demarche-enfants">celles pour les enfants</a>, y compris pour
