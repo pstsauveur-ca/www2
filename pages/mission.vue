@@ -8,7 +8,6 @@
         <div class="col-lg-2"></div>
 
         <div class="col-lg-8">
-
           
 					<figure>
 						<blockquote class="fs-lg">
@@ -31,6 +30,21 @@
 						</blockquote>
 						<figcaption class="blockquote-footer">Paul VI, Evangelii nuntiandi, no 6</figcaption>
 					</figure>
+
+          <p>
+            <figure>
+              <div class="youtube-video-container">
+                <iframe 
+                  width="560" 
+                  height="315" 
+                  src="https://www.youtube-nocookie.com/embed/WxULmsa_8BY?si=7Zn8C137QiB2U3Qf"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  allowfullscreen>
+                </iframe>
+              </div>
+            </figure>
+          </p>
 
           <h3 class="display-4 mb-5">Notre mission</h3>
           
