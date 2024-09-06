@@ -110,8 +110,7 @@ participants regardent des vidéos dynamiques et partagent
 sur ce qu’ils ont vu. La méthode Alpha est reconnue
 mondialement, rejoignez-nous!
 									</p>
-									<h2 class="fs-15 text-uppercase text-navy">Horaire</h2>
-									<a href="/alpha">Obtenir plus de détails</a>
+									<p><a href="/alpha">Obtenir plus de détails</a></p>
 								</div>
 								<!--/.card-body -->
 							</div>
