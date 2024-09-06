@@ -22,7 +22,7 @@
                 </ul> -->
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="/equipe">À propos</a>
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">À propos</a>
                 <ul class="dropdown-menu">
                   <li class="nav-item"><a class="dropdown-item" href="/mission">Mission</a></li>
                   <li class="nav-item"><a class="dropdown-item" href="/equipe">Équipe</a></li>
