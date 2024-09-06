@@ -1,5 +1,5 @@
 <template>
-  <PageTitle title="Initiatives" />
+  <PageTitle title="Vie de Foi" />
 		<section class="wrapper bg-light">
 			<div class="container py-14 py-md-12">
 
