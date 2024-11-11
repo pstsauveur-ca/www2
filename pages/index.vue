@@ -47,6 +47,39 @@
                 <div v-html="publication.texte" /> 
               </BlogPost> -->
 
+              <BlogPost
+                image="/img/photos/ski-hill-church.png"
+                title="Célébrations pour le temps de Noël 2024"
+                date="10 novembre 2024">
+                <h3 class="display-6">Noël</h3>
+
+                <p>
+                    La vente de billets débutera le <strong>24 novembre</strong> pour les personnes ayant fait un don durant l’année à la paroisse. 
+                    La vente se tiendra au sous-sol du presbytère, de <strong>9h à midi</strong>.
+                </p>
+                <p>
+                    Pour toutes les autres personnes, la vente commencera le <strong>25 novembre</strong>.
+                </p>
+
+                <h4>Horaires des messes de Noël</h4>
+                <ul>
+                    <li><strong>Mardi 24 décembre</strong> : 17h00, 20h00, 22h00, minuit</li>
+                    <li><strong>Mercredi 25 décembre</strong> : 11h00</li>
+                </ul>
+
+                <h3 class="display-6">Jour de l'an</h3>
+
+                <h4>Horaires des célébrations du Nouvel An</h4>
+                <ul>
+                    <li><strong>Mardi 31 décembre</strong> (Veillée du jour de l’an) : Messe à 19h00, suivie d’une heure d’adoration pour rendre grâce à Dieu de tous ses bienfaits durant l’année 2024.</li>
+                    <li><strong>Mercredi 1er janvier</strong> – Sainte Marie Mère de Dieu : Messe à 11h00</li>
+                </ul>
+
+                <p><strong>Paroisse Saint-Sauveur</strong><br>
+                205 rue Principale, St-Sauveur, J0R 1R0</p>
+
+
+              </BlogPost>
 
               <BlogPost
                 image="https://static.pstsauveur.ca/97622300-14d6-42c5-abb0-d567d89209ae"
