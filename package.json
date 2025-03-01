@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "npm run dev",
-    "build": "npm run pull-data && npm run generate",
+    "build": "npm run generate",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
