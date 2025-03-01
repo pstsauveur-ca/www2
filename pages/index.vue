@@ -53,7 +53,7 @@
                 title="Horaire du temps Pascal"
                 date="28 février 2025">
 
-                <p>Nous vous invitons à vivre pleinement ce temps de Carême qui nous conduit vers grande fête de Pâques. Voici les célébrations et activités qui marqueront notre cheminement communautaire pendant ces quarante jours.</p>
+                <p>Nous vous invitons à vivre pleinement ce temps de Carême qui nous conduit vers la grande fête de Pâques. Voici les célébrations et activités qui marqueront notre cheminement communautaire pendant ces quarante jours.</p>
 
                 <strong>Mercredi des cendres</strong>
                 
