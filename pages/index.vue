@@ -61,13 +61,14 @@
 
                 <strong>Retraite du Carême</strong>
                 
-                <p>Retraite en ligne avec Stéphanie Fournier, agente d'évangélisation. <br>Quatre capsules vidéo de 30 minutes disponibles sur Facebook et Youtube de la paroisse aux dates suivantes:
+                <p>Retraite en ligne avec Stéphanie Fournier, agente d'évangélisation. <br>Quatre capsules vidéo de 30 minutes disponibles sur Facebook et Youtube de la paroisse aux dates suivantes:</p>
+                
                 <ul>
                     <li>12 mars</li>
                     <li>19 mars</li>
                     <li>26 mars</li>
                     <li>2 avril</li>
-                </ul></p>
+                </ul>
 
                 <strong>Sacrement du Pardon</strong>
                 
@@ -84,11 +85,11 @@
                 <strong>Vendredi Saint</strong>
                 
                 <p>Le 18 Avril
-                  <ul class="mt-0 pt-0">
-                    <li>Office de la Passion du Seigneur - 15h00 (vénération de la Sainte Croix)</li>
-                    <li>Chemin de la croix - 19h00</li>
-                </ul>
                 </p>
+                <ul class="mt-0 pt-0">
+                  <li>Office de la Passion du Seigneur - 15h00 (vénération de la Sainte Croix)</li>
+                  <li>Chemin de la croix - 19h00</li>
+                </ul>
                 
 
                 <strong>Samedi Saint - Veillée Pascale</strong>
