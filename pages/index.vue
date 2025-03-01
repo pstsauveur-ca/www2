@@ -47,6 +47,69 @@
                 <div v-html="publication.texte" /> 
               </BlogPost> -->
 
+
+              <BlogPost
+                image="/img/photos/temps-pascal.png"
+                title="Horaire du temps Pascal"
+                date="28 février 2025">
+
+                <p>Nous vous invitons à vivre pleinement ce temps de Carême qui nous conduit vers grande fête de Pâques. Voici les célébrations et activités qui marqueront notre cheminement communautaire pendant ces quarante jours.</p>
+
+                <strong>Mercredi des cendres</strong>
+                
+                <p>Le 5 mars - 19h00<br>Messe avec imposition des cendres.</p>
+
+                <strong>Retraite du Carême</strong>
+                
+                <p>Retraite en ligne avec Stéphanie Fournier, agente d'évangélisation. <br>Quatre capsules vidéo de 30 minutes disponibles sur Facebook et Youtube de la paroisse aux dates suivantes:
+                <ul>
+                    <li>12 mars</li>
+                    <li>19 mars</li>
+                    <li>26 mars</li>
+                    <li>2 avril</li>
+                </ul></p>
+
+                <strong>Sacrement du Pardon</strong>
+                
+                <p>Mercredi 9 avril - 19h00</p>
+
+                <strong>Dimanche des Rameaux</strong>
+                
+                <p>Le 13 avril - 9h30 et 11h00. <br>Bénédiction des rameaux aux deux célébrations.</p>
+
+                <strong>Jeudi Saint</strong>
+                
+                <p>Le 17 Avril - Messe à 19h00. <br>Cène du Seigneur suivie d’une heure d’adoration. </p>
+
+                <strong>Vendredi Saint</strong>
+                
+                <p>Le 18 Avril
+                  <ul class="mt-0 pt-0">
+                    <li>Office de la Passion du Seigneur - 15h00 (vénération de la Sainte Croix)</li>
+                    <li>Chemin de la croix - 19h00</li>
+                </ul>
+                </p>
+                
+
+                <strong>Samedi Saint - Veillée Pascale</strong>
+                
+                <p>Le 19 Avril - Messe à 20h00 <br> Messe et Baptêmes d’adultes.</p>
+
+                <strong>Dimanche de Pâques</strong>
+                
+                <p>Le 20 Avril - Messes à 9h30 et 11h00 <br>Messes solennelles. </p>
+
+                <hr class="mt-8 mb-8">
+
+                <figure>
+                  <blockquote class="fs-lg">
+                    <p>« J'ai ardemment désiré manger cette Pâque avec vous avant de souffrir! »</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer">Luc 22:15</figcaption>
+                </figure>
+
+              </BlogPost>
+
               <BlogPost
                 image="/img/photos/ski-hill-church.png"
                 title="Célébrations pour le temps de Noël 2024"
@@ -77,7 +140,6 @@
 
                 <p><strong>Paroisse Saint-Sauveur</strong><br>
                 205 rue Principale, St-Sauveur, J0R 1R0</p>
-
 
               </BlogPost>
 
