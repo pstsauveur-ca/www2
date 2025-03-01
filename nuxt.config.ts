@@ -24,21 +24,21 @@ export default defineNuxtConfig({
       },
     },
   },
-  // content: {
-  //   // api: {
-  //   //   baseURL: '/api/_data',
-  //   // },
-  //   sources: {
-  //     content: {
-  //       driver: 'fs',
-  //       base: resolve(__dirname, 'data'),
-  //     },
-  //   },
-  // },
+  content: {
+    // api: {
+    //   baseURL: '/api/_data',
+    // },
+    sources: {
+      content: {
+        driver: 'fs',
+        base: resolve(__dirname, 'data'),
+      },
+    },
+  },
   devtools: {
     enabled: false,
   },
-  // modules: ['@nuxt/content'],
+  modules: ['@nuxt/content'],
   nitro: {
 
   },

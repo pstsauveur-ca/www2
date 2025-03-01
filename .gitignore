@@ -23,6 +23,6 @@ logs
 !.env.example
 
 temp
-data
+# data
 content
 assets/data

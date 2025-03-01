@@ -1,0 +1,15 @@
+[
+  {
+    "id": 2,
+    "status": "published",
+    "user_created": "edcc8ad4-26cb-47eb-a8b9-03b4f806f31d",
+    "date_created": "2024-06-24T13:18:35.880Z",
+    "user_updated": null,
+    "date_updated": null,
+    "titre": "Hello world",
+    "image": "9c1391e5-a9f4-4f85-9e34-1c0810e78267",
+    "texte": "<p>Hello world</p>\n<h2>HI</h2>\n<p>&nbsp;</p>\n<p><strong>Hellooooo</strong></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
+    "formattedDate": "Lundi 24 juin 2024 à 09 h 18",
+    "link": "evenements/2024/06/2"
+  }
+]

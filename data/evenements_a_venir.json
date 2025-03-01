@@ -1,0 +1,16 @@
+[
+  {
+    "id": "concert-louange",
+    "user_created": "9fcef6f0-10c5-4455-b87f-6a979c3fa697",
+    "date_created": "2024-06-20T18:58:04.814Z",
+    "user_updated": null,
+    "date_updated": null,
+    "date": "2024-07-07T13:30:00",
+    "titre": "Concert de louange",
+    "contenu": "Le collectif le Feu sacré sera de passage dans notre paroisse le dimanche 7 juillet. Il animera les messes de 9h30 et 11h00. Un diner hamburger vous sera offert gratuitement (don à votre discrétion).\nPar la suite, à 13h30, un magnifique concert de louange vous sera offert dans l'église, durant lequel on rendra grâce à Dieu de tous ses bienfaits. Un temps de prière commun sera proposé accompagné de l'exposition du Saint Sacrement. Vous vivrez un moment inoubliable. Amenez des amis. ",
+    "status": "published",
+    "image": "97622300-14d6-42c5-abb0-d567d89209ae",
+    "formattedDate": "Dimanche 7 juillet 2024 à 13 h 30",
+    "link": "evenements/2024/07/concert-louange"
+  }
+]
