@@ -46,6 +46,11 @@ const items = [{
   url: "https://www.zeffy.com/ticketing/c3c500bf-320d-487a-9ee3-bb3d76bad7bb",
   price: "100$"
 }, { 
+  initials: "E",
+  name: "Extrait de baptême",
+  url: "https://www.zeffy.com/ticketing/extrait-de-bapteme",
+  price: "25$"
+}, { 
   initials: "PC",
   name: "Première communion",
   url: "https://www.zeffy.com/fr-CA/ticketing/2df58841-81cf-4ae0-83c4-e2edd454e38a",
