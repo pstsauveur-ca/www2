@@ -47,6 +47,39 @@
                 <div v-html="publication.texte" /> 
               </BlogPost> -->
 
+              <BlogPost
+                image="/img/photos/retraite-juin-2025.png"
+                title="Ressourcement à l'Esprit Saint"
+                date="14 mai 2025">
+
+                
+                <figure>
+                  <blockquote class="fs-lg">
+                    <p>« Ils furent tous remplis du Saint-Esprit. »</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer">Actes 2:4</figcaption>
+                </figure>
+
+                <p>Souvent les temps de retraites spirituelles sont offerts pendant le carême, cette fois-ci nous vous proposons de mettre l’accent sur le temps pascal, précisément sur le souffle de l’Esprit sur nous. Joignez-vous à nous pour ce temps riche en grâces.</p>
+
+                <p><strong>Lieu:</strong></p>
+                <p>Église Saint-Sauveur</p>
+
+                <p><strong>Date:</strong></p>
+                <p>Samedi 7 juin 2025</p>
+
+                <p><strong>Prédicateur:</strong></p>
+                <p>L'Abbé Jean-Thomas (prêtre paroisses St-Antoine et Ste-Sophie).</p>
+
+                <p><strong>Horaire:</strong> 9h00 à 15h00</p>
+
+                <p>- Enseignements - Louanges & Chants -</p>
+
+                <p>Dîner communautaire suivi de l'eucharistie à 14h00, présidée par Mgr Raymond Poisson, durant laquelle il donnera la confirmation.</p>
+
+                <p>Inscrivez-vous maintenant en nous écrivant au <a href="mailto:info@pstsauveur.ca">info@pstsauveur.ca</a> ou en appelant au <a href="tel:450-227-2423">(450) 227-2423</a>.</p>
+
+              </BlogPost>
 
               <BlogPost
                 image="/img/photos/temps-pascal.png"
